@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>PPMO Table</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_spog_ppmo_table</name>
+        <number_ref display_value="PPMO">fa4579ebdb5e22002ab570d9bf9619a8</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">f6452072372331004ed29c9953990eb2</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-12 11:43:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9545fd67db5e22002ab570d9bf9619d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PPMO Table</sys_name>
+        <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name>sys_db_object_9545fd67db5e22002ab570d9bf9619d6</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-12 12:39:40</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_spog_ppmo.user" name="x_spog_ppmo.user">294579ebdb5e22002ab570d9bf96194e</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

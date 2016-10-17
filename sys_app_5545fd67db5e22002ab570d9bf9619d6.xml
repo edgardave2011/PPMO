@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <logo/>
+        <menu display_value="PPMO">ed4579ebdb5e22002ab570d9bf96194d</menu>
+        <name>PPMO</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_spog_ppmo</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_spog_ppmo</source>
+        <store_correlation_id>REPOAPP0000013844</store_correlation_id>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-12 11:43:56</sys_created_on>
+        <sys_id>5545fd67db5e22002ab570d9bf9619d6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-14 12:57:59</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_spog_ppmo.user" name="x_spog_ppmo.user">294579ebdb5e22002ab570d9bf96194e</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.6</version>
+    </sys_app>
+</record_update>

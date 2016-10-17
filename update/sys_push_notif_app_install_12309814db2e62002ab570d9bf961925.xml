@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2016-10-14 12:17:52</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-14 12:17:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>12309814db2e62002ab570d9bf961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fM1KUKpDbOw:APA91bE7UTXjTvagt1uvrZ163exP5aNWxTEeaKqlHOLqUpkq8jJrXG9buETxXsHvySxDg-Jlna3PcPhIF_L7cR9ouGbWmTrSno_T0rLHziUR36tGGkMebyQwBWMW0Y2NLfoN3P8VYCV2</sys_name>
+        <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_12309814db2e62002ab570d9bf961925</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-14 12:17:52</sys_updated_on>
+        <sys_user_id display_value="David Edgar">b773c69637b8820050579c9953990eae</sys_user_id>
+        <token>fM1KUKpDbOw:APA91bE7UTXjTvagt1uvrZ163exP5aNWxTEeaKqlHOLqUpkq8jJrXG9buETxXsHvySxDg-Jlna3PcPhIF_L7cR9ouGbWmTrSno_T0rLHziUR36tGGkMebyQwBWMW0Y2NLfoN3P8VYCV2</token>
+    </sys_push_notif_app_install>
+</record_update>

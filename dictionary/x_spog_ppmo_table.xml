@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="PPMO Table" max_length="40" name="x_spog_ppmo_table" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element label="System" sequence="0" value="System"/>
+                <element label="Resource" sequence="1" value="Resource"/>
+                <element label="User" sequence="2" value="User"/>
+                <element label="Project" sequence="3" value="Project"/>
+                <element label="Report" sequence="4" value="Report"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_deviation" choice_table="incident" dependent="resolution_subcategory" dependent_on_field="resolution_subcategory" label="Deviation" max_length="40" name="deviation" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="close_code" choice_table="incident" label="Resolution Category" max_length="40" name="resolution" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Resolution Notes" max_length="4000" name="resolution_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_resolution_subcat" choice_table="incident" dependent="resolution" dependent_on_field="resolution" label="Resolution Subcategory" max_length="40" name="resolution_subcategory" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Resolved" max_length="40" name="resolved" type="glide_date_time"/>
+        <element label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Sub Category" max_length="40" name="sub_category" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="System" label="Access" sequence="1" value="access_system"/>
+                <element dependent_value="Project" label="New" sequence="1" value="New_project"/>
+                <element dependent_value="Report" label="New Spec" sequence="1" value="newspec_report"/>
+                <element dependent_value="Resource" label="Starter" sequence="1" value="starter_resource"/>
+                <element dependent_value="User" label="Timesheet" sequence="1" value="timesheet_user"/>
+                <element dependent_value="Project" label="Amend" sequence="2" value="amend_project"/>
+                <element dependent_value="Report" label="Change Spec" sequence="2" value="changespec_report"/>
+                <element dependent_value="System" label="Network" sequence="2" value="network_system"/>
+                <element dependent_value="User" label="Password" sequence="2" value="password_user"/>
+                <element dependent_value="Resource" label="Transfer" sequence="2" value="transfer_resource"/>
+                <element dependent_value="User" label="Access" sequence="3" value="access_user"/>
+                <element dependent_value="Project" label="Close" sequence="3" value="close_project"/>
+                <element dependent_value="Report" label="Failure to Run" sequence="3" value="failuretorun_report"/>
+                <element dependent_value="Resource" label="Leaver" sequence="3" value="leaver_resource"/>
+                <element dependent_value="Resource" label="Rate/CC Change" sequence="4" value="rateccchange_resource"/>
+            </choice>
+        </element>
+    </element>
+</database>

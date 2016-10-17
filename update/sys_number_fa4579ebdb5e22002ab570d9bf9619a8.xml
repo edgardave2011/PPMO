@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_spog_ppmo_table">x_spog_ppmo_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PPMO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-12 11:44:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fa4579ebdb5e22002ab570d9bf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PPMO</sys_name>
+        <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name>sys_number_fa4579ebdb5e22002ab570d9bf9619a8</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-12 11:44:01</sys_updated_on>
+    </sys_number>
+</record_update>

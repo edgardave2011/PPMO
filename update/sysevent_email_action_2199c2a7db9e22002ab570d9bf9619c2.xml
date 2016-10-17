@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_spog_ppmo_table</collection>
+        <condition table="x_spog_ppmo_table">contact_typeINIn person,Telephone,Chat^EQ<item endquery="false" field="contact_type" goto="false" newquery="false" operator="IN" or="false" value="In person,Telephone,Chat"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">Dear ${requestor.name},</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">&nbsp;</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">Thank you for contacting PPMO. Your unique reference number is ${number}. You will need to quote this if you contact us before we respond to you.</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">&nbsp;</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">We aim to respond to you about ${short_description}&nbsp;by ${sla_due}.<br /></span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">&nbsp;</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">If you have any further enquires relating to this incident please reply directly to this email or contact the team directly.</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">&nbsp;</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">Kind regards,</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">&nbsp;</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">IT Programme Office</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">Specsavers Forum 6, Solent Business Park, Whiteley, Fareham, Hampshire, United Kingdom PO15 7PA</span></p>
+<p style="margin: 0cm 11.3pt .0001pt 15.6pt;"><span style="font-size: 10.0pt;">Tel 0845 2020 241 or +44 (0)20 1000 241 Fax +44 (0)1489 880615 Web <a title="specsavers.com" href="specsavers.com">specsavers.com</a></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>PPMO - New request</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requestor.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New request: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-12 13:16:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2199c2a7db9e22002ab570d9bf9619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PPMO - New request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name>sysevent_email_action_2199c2a7db9e22002ab570d9bf9619c2</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-12 13:18:01</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

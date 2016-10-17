@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Resolution" section_id="e3859818db2e62002ab570d9bf9619b1" sys_domain="global" table="x_spog_ppmo_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>e7165818db2e62002ab570d9bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution</element>
+            <position>1</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>6b165818db2e62002ab570d9bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_subcategory</element>
+            <position>2</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>eb165818db2e62002ab570d9bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deviation</element>
+            <position>3</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>6f165818db2e62002ab570d9bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>ef165818db2e62002ab570d9bf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved</element>
+            <position>5</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>63165818db2e62002ab570d9bf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <position>6</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>e3165818db2e62002ab570d9bf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>67165818db2e62002ab570d9bf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_notes</element>
+            <position>8</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:43:37</sys_created_on>
+            <sys_id>e7165818db2e62002ab570d9bf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_spog_ppmo_table" sys_domain="global" view="Default view">e3859818db2e62002ab570d9bf9619b1</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:43:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution</caption>
+            <header>false</header>
+            <name>x_spog_ppmo_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-14 12:41:10</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3859818db2e62002ab570d9bf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resolution</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+            <sys_update_name>sys_ui_section_e3859818db2e62002ab570d9bf9619b1</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-14 12:41:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

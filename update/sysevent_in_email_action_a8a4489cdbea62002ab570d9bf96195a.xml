@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>New emails set state to New for PPMO records.</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from display_value="keyedin email">197608dcdbea62002ab570d9bf961996</from>
+        <name>PPMO Inbound new</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[current.description = "From: " + email.origemail + "\n\n" + email.body_text;]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-14 11:27:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8a4489cdbea62002ab570d9bf96195a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PPMO Inbound new</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name>sysevent_in_email_action_a8a4489cdbea62002ab570d9bf96195a</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-14 12:37:55</sys_updated_on>
+        <table>x_spog_ppmo_table</table>
+        <template>state=1^contact_type=email^short_descriptionDYNAMICb637bd21ef3221002841f7f775c0fbb6^requestorDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

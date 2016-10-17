@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="resolved_by" label="Resolved by" language="en" table="x_spog_ppmo_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <help/>
+            <hint/>
+            <label>Resolved by</label>
+            <language>en</language>
+            <name>x_spog_ppmo_table</name>
+            <plural>Resolved by</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-10-12 11:56:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4a38f92fdb5e22002ab570d9bf961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resolved by</sys_name>
+            <sys_package display_value="PPMO" source="x_spog_ppmo">5545fd67db5e22002ab570d9bf9619d6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_ppmo_table_resolved_by_en</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-12 11:56:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

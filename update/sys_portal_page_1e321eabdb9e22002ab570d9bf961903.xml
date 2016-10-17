@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-10-17 14:30:40">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e321eabdb9e22002ab570d9bf961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My PPMO</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PPMO">5545fd67db5e22002ab570d9bf9619d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+        <title>My PPMO</title>
+        <u_groups/>
+        <u_groups_2/>
+        <user display_value="David Edgar">b773c69637b8820050579c9953990eae</user>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="My PPMO">1e321eabdb9e22002ab570d9bf961903</page>
+                <summary>Tickets by "State" – "New", "Pending", "Awaiting Customer"</summary>
+                <sys_created_by>david.edgar</sys_created_by>
+                <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                <sys_id>d2321eabdb9e22002ab570d9bf961904</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>david.edgar</sys_updated_by>
+                <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 12-10-2016 14:50:24">d2321eabdb9e22002ab570d9bf961904</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                        <sys_id>16321eabdb9e22002ab570d9bf961905</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 12-10-2016 14:50:24">d2321eabdb9e22002ab570d9bf961904</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                        <sys_id>52321eabdb9e22002ab570d9bf961905</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 12-10-2016 14:50:24">d2321eabdb9e22002ab570d9bf961904</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                        <sys_id>96321eabdb9e22002ab570d9bf961904</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Tickets by "State" – "New", "Pending", "Awaiting Customer"</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 12-10-2016 14:50:24">d2321eabdb9e22002ab570d9bf961904</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                        <sys_id>9e321eabdb9e22002ab570d9bf961904</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>915e0ee7db9e22002ab570d9bf9619aa</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 12-10-2016 14:50:24">d2321eabdb9e22002ab570d9bf961904</portal_section>
+                        <sys_created_by>david.edgar</sys_created_by>
+                        <sys_created_on>2016-10-12 13:50:24</sys_created_on>
+                        <sys_id>da321eabdb9e22002ab570d9bf961904</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>david.edgar</sys_updated_by>
+                        <sys_updated_on>2016-10-12 13:50:24</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
